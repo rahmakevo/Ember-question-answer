@@ -1,0 +1,1 @@
+/home/rahmak/ip3/app/resolver.js

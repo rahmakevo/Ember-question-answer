@@ -1,0 +1,7 @@
+<div class="explanation">
+  <p>Got a question? Just {{#link-to 'new-question'}}ask{{/link-to}}! Got an answer? Click on a question below!</p>
+</div>
+
+{{#each model as |question|}}
+  {{question-preview question=question}}
+{{/each}}

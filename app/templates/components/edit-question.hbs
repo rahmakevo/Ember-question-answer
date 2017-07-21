@@ -1,0 +1,21 @@
+{{#if editMode}}
+  <div class="edit-question">
+    <form>
+      <button class="btn btn-default" {{action 'edit' question}}>Done</button>
+      <div class="form-group">
+        <label for="ask">Question:</label>
+        {{input class="form-control" value=ask id="ask" placeholder=question.ask}}
+      </div>
+      <div class="form-group">
+        <label for="author">Name:</label>
+        {{input class="form-control" value=author id="author" placeholder=question.author}}
+      </div>
+      <div class="form-group">
+        <label for="notes">Notes:</label>
+        {{textarea rows="4" class="form-control" value=notes id="notes" placeholder=question.notes}}
+      </div>
+    </form>
+  </div>
+{{else}}
+  <button class="btn btn-default" {{action 'editQuestionForm'}}>Edit Question</button>
+{{/if}}

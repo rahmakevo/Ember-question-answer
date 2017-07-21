@@ -1,0 +1,22 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand">{{#link-to 'index'}}Home{{/link-to}}</a>
+    </div>
+    <div>
+      <ul class="nav navbar-nav navbar-left">
+        <li><a>{{#link-to 'new-question'}}Ask Question{{/link-to}}</a></li>
+        <li><a>{{#link-to 'about'}}About{{/link-to}}</a></li>
+        <li><a>{{#link-to 'favorites'}}Your Favorites{{/link-to}}</a></li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+<header class = "page-header">
+  <h1>Got Questions? <small>How about answers?</small></h1>
+</header>
+
+<div class="container">
+  {{outlet}}
+</div>
