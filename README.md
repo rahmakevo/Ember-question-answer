@@ -8,7 +8,7 @@
 
 [View the app live](https://review-question-answer.firebaseapp.com/)
 
-This is an Epicodus Code Review for the Javascript course. Users can submit a question and other users can respond to the question with answers. This app employs computed properties to determine question popularity and if a user likes it, a helper to display popularity icons, and a service to keep track of a current user's favorite questions.
+This is an Moringa School Review for the Javascript course. Users can submit a question and other users can respond to the question with answers. This app employs computed properties to determine question popularity and if a user likes it, a helper to display popularity icons, and a service to keep track of a current user's favorite questions.
 
 ## Prerequisites/Technologies Used
 
@@ -44,7 +44,7 @@ You will need the following things properly installed on your computer.
 
 This software is licensed under the MIT license.
 
-Copyright (c) 2016 Kevin Siundu
+Copyright (c) 2017 Kevin Siundu
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
